@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Classic Spaghetti Carbonara",
+    "description": "Creamy, silky sauce with pancetta and parmesan.",
+    "image": "https://images.unsplash.com/photo-1604908176997-431a1eb8c1f8?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "Italian",
+    "category": "Dinner",
+    "prepTime": 20,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Spaghetti", "amount": "200g" },
+      { "name": "Eggs", "amount": "2" },
+      { "name": "Pancetta", "amount": "100g" },
+      { "name": "Parmesan", "amount": "50g" }
+    ],
+    "instructions": [
+      "Boil pasta in salted water.",
+      "Cook pancetta until crisp.",
+      "Whisk eggs with parmesan.",
+      "Combine hot pasta with pancetta and egg mixture off heat."
+    ],
+    "tags": ["pasta", "quick"],
+    "rating": 4.7
+  },
+  {
+    "id": "2",
+    "title": "Veggie Burrito Bowl",
+    "description": "Colorful bowl with rice, beans, veggies, and salsa.",
+    "image": "https://images.unsplash.com/photo-1526312426976-593c2b999885?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "Mexican",
+    "category": "Lunch",
+    "prepTime": 25,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Rice", "amount": "1 cup" },
+      { "name": "Black beans", "amount": "1 can" },
+      { "name": "Corn", "amount": "1/2 cup" },
+      { "name": "Salsa", "amount": "1/2 cup" }
+    ],
+    "instructions": [
+      "Cook rice.",
+      "Warm beans and corn.",
+      "Assemble with salsa and toppings."
+    ],
+    "tags": ["vegetarian", "bowl"],
+    "rating": 4.5
+  },
+  {
+    "id": "3",
+    "title": "Butter Chicken",
+    "description": "Creamy tomato-based curry with tender chicken.",
+    "image": "https://images.unsplash.com/photo-1633945274405-2f1a2765b0f1?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "prepTime": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Chicken", "amount": "500g" },
+      { "name": "Tomato puree", "amount": "1 cup" },
+      { "name": "Cream", "amount": "1/2 cup" }
+    ],
+    "instructions": [
+      "Marinate and cook chicken.",
+      "Simmer sauce with spices and tomato.",
+      "Combine with cream and chicken."
+    ],
+    "tags": ["curry", "comfort"],
+    "rating": 4.6
+  },
+  {
+    "id": "4",
+    "title": "Pancakes",
+    "description": "Fluffy breakfast pancakes with maple syrup.",
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "American",
+    "category": "Breakfast",
+    "prepTime": 20,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Flour", "amount": "1 cup" },
+      { "name": "Milk", "amount": "1 cup" },
+      { "name": "Egg", "amount": "1" }
+    ],
+    "instructions": [
+      "Mix ingredients into a batter.",
+      "Cook on griddle until golden."
+    ],
+    "tags": ["sweet", "quick"],
+    "rating": 4.3
+  }
+]

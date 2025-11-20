@@ -1,12 +1,15 @@
-/* Global styles for minimalistic design */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('./styles/theme-ocean.css');
+
+/* Global reset */
+*{margin:0;padding:0;box-sizing:border-box}
 
 html, body {
   height: 100%;
-  background-color: #ffffff;
+  background: var(--op-bg);
+  color: var(--op-text);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
+
+a{color:inherit}
+img{display:block;max-width:100%}
+button{font:inherit}

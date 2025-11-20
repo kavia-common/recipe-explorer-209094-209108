@@ -1,3 +1,9 @@
-<div class="container">
-  <h1>{{ title }}</h1>
-</div>
+<app-header>
+  <app-search-bar header-search (search)="onGlobalSearch($event)"></app-search-bar>
+</app-header>
+
+<main class="op-main" role="main">
+  <router-outlet></router-outlet>
+</main>
+
+<app-footer></app-footer>
